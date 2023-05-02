@@ -1,0 +1,44 @@
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: auto;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home-link.active {
+  font-weight: bold;
+  color: aqua;
+}
+
+.create-link.active {
+  font-weight: bold;
+  color: aqua;
+}
